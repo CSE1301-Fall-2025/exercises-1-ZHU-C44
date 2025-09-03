@@ -8,5 +8,10 @@ public class E14Seconds {
        // secondsInDay and secondsInThreeDays
        // and print out secondsInThreeDays
 
+       int secondsInDay, secondsInThreeDays;
+       secondsInDay = 24 * 60 * 60;
+       secondsInThreeDays = secondsInDay * 3;
+       System.out.println(secondsInThreeDays);
+
     }
 }

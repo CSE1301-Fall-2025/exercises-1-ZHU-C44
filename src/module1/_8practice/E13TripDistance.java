@@ -6,6 +6,13 @@ public class E13TripDistance {
 	//down to a quarter of a tank of gas and your car gets 32 
 	//miles per gallon.
     public static void main(String[] args) {
+
+        double numGallons, milesPerGallon, miles;
+        numGallons = (double) 10 / 4;
+        milesPerGallon = 32;
+        miles = numGallons * milesPerGallon;
+        System.out.println(miles);
+
        // Your code should use the variables
        // numGallons, milesPerGallon, and miles
        // and print out miles

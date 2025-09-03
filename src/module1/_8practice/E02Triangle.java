@@ -8,5 +8,12 @@ public class E02Triangle {
 	//and one division.
 	public static void main(String[] args) {
 
+		int base, height;
+		base = 7;
+		height = 9;
+		double area = (double) (base * height) / 2;
+
+		System.out.println("The area of a triangle with base 7 and height 9 is: " + area);
+
 	}
 }

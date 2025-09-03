@@ -6,5 +6,12 @@ public class E01Rectangle {
 	//and print the area of the rectangle on a separate line.
     public static void main(String[] args) {
 
+		int width = 7;
+		int height = 9;
+		int perimeter = width * 2 + height * 2;
+		System.out.println("the perimeter of the rectangle is: " + perimeter);
+		int area = width * height;
+		System.out.println("the area of the rectangle is: " + area);
+
     }
 }

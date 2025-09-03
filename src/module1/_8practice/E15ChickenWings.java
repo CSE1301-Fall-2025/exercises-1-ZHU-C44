@@ -9,5 +9,14 @@ public class E15ChickenWings {
       // money, pricePerWing, numWings
       // and print out numWings
 
+      double money, pricePerWing;
+      int numWings;
+      
+      money = 4.5;
+      pricePerWing = 0.75;
+      numWings = (int) (money / pricePerWing);
+
+      System.out.println(numWings);
+
     }
 }
